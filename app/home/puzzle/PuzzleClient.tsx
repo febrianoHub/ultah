@@ -20,7 +20,6 @@ export default function PuzzleClient({ image }: { image: string }) {
     }
   }, [solvedTrigger]);
 
-  // Prevent scrolling when dragging
   useEffect(() => {
     const preventScroll = (e: TouchEvent) => {
       if (isDragging) {
@@ -55,7 +54,7 @@ export default function PuzzleClient({ image }: { image: string }) {
         Puzzle Challenge
       </h1>
       <div className="flex flex-col items-center">
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 w-full max-w-5xl">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 w-full max-w-xl">
           <div
             className="bg-white shadow-md rounded-xl p-2 flex items-center justify-center"
             style={{
@@ -67,7 +66,7 @@ export default function PuzzleClient({ image }: { image: string }) {
             onMouseDown={() => setIsDragging(true)}
             onMouseUp={() => setIsDragging(false)}
           >
-            <div className="md:w-[350px] md:h-[350px] w-full">
+            <div className=" w-full">
               <JigsawPuzzle
                 imageSrc={image}
                 rows={3}
