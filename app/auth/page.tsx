@@ -45,7 +45,7 @@ export default function LoginPage() {
       if (data.success) {
         router.push("/home");
       } else {
-        setError("Tanggal Anniversary salah! Coba lagi 💔");
+        setError("Tanggal Lahir salah! Coba lagi 💔");
         setInputValues(Array(6).fill(""));
       }
     } catch (error) {
@@ -60,10 +60,10 @@ export default function LoginPage() {
       <div className="md:min-w-lg w-11/12 sm:w-auto flex-col bg-white shadow-xl rounded-lg p-8 flex justify-center items-center">
         <span className="text-6xl animate-pulse">❤️</span>
         <h1 className="font-bold text-2xl font-sans text-gray-900 mt-4">
-          Anniversary Lock
+          Birthday Lock
         </h1>
         <p className="text-gray-600 sm:text-sm text-xs mt-3 font-sans font-light text-center max-w-xs">
-          Buka kunci dengan tanggal Anniversary kita sayang 💕
+          Buka kunci dengan tanggal lahir 💕
         </p>
 
         <form

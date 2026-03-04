@@ -22,7 +22,7 @@ export default function Home() {
                 "2px 2px 4px rgba(0,0,0,0.6), 4px 4px 8px rgba(0,0,0,0.4)",
             }}
           >
-            Happy Birthday Pacar 20Th
+            Happy Birthday 21Th
           </h1>
 
           <p className="font-serif mt-3  text-white/90 font-light">

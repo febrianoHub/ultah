@@ -11,11 +11,11 @@ export default function Home() {
     <div className="min-h-screen p-2 pb-20">
       {" "}
       <h1 className="text-5xl font-serif text-pink-500 text-center">
-        Menu Of Our Love
+        Menu Of Our Birthday
       </h1>
       <div className="text-xl space-x-2 flex justify-center items-center font-serif text-pink-600 text-center">
         <CiHeart />
-        <p>Together Forever</p>
+        <p>To Afina Meutya Putri</p>
         <CiHeart />
       </div>
       <div className="flex justify-center items-center">
@@ -24,25 +24,25 @@ export default function Home() {
             image="/images/card/camera.png"
             href="/home/memories"
             title="Our Memories"
-            description="Every precious moment with you ❤️"
+            description="Every precious moment ❤️"
           />
           <HomeCard
             image="/images/card/gallery.png"
             href="/home/gallery"
-            title="Love Gallery"
-            description="Every memory we live 💞"
+            title="Our Gallery"
+            description="Beautiful picture 💞"
           />
           <HomeCard
             image="/images/card/puzzle.png"
             href="/home/puzzle"
-            title="Love Puzzle"
-            description="Pieces of our hearts combined 💝"
+            title="Secret Puzzle"
+            description="Core memory"
           />
           <HomeCard
             image="/images/card/surat.png"
             href="/home/surat"
-            title="Love Notes"
-            description="Sweet messages just for you 💌"
+            title="Wish Notes"
+            description="Wish messages just for you 💌"
           />
         </div>
       </div>

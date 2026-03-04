@@ -26,7 +26,7 @@ export default function GalleryClient({ gallery }: { gallery: GalleryItem[] }) {
         <span>Back</span>
       </Link>
       <h1 className="font-serif text-center sm:text-4xl text-2xl text-pink-600">
-        Our Love Journey
+        Our Beautiful picture
       </h1>
       <p className="text-2xl text-center mb-6">❤️</p>
 

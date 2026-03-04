@@ -84,7 +84,7 @@ const MusicPlayer: React.FC = () => {
             </button>
 
             <div className="hidden sm:block">
-              <div className="font-semibold text-sm">Our Love Song</div>
+              <div className="font-semibold text-sm">Our Birthday Song</div>
               <div className="text-xs text-pink-100">
                 {formatTime(currentTime)} / {formatTime(duration)}
               </div>
@@ -131,7 +131,7 @@ const MusicPlayer: React.FC = () => {
           <div className="px-4 pb-4 space-y-3">
             <div className="flex items-center justify-center space-x-4">
               <div className="text-center">
-                <div className="font-bold text-lg">💕 Our Love Song 💕</div>
+                <div className="font-bold text-lg">💕 Our Birthday Song 💕</div>
               </div>
             </div>
 
